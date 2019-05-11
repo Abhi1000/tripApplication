@@ -16,6 +16,7 @@ class App extends Component {
     this.addTrip = this.addTrip.bind(this)
   }
   componentDidMount() {
+	  console.log("inside componentDidMount");
     // axios.get('./data.json').then(res => {
     //   console.log("res", res.data);
     //   // this.state.tripData = res.data
